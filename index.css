@@ -1,4 +1,4 @@
-body {
+/* body {
   margin: 0;
   padding: 0;
   font-family: Arial, sans-serif;
@@ -16,7 +16,7 @@ body {
 }
 
 img {
-  width: 200px; /* Adjust as needed */
+  width: 200px;
   height: auto;
 }
 
@@ -36,4 +36,4 @@ button {
 
 button:hover {
   background-color: #0056b3;
-}
+} */
