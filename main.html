@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Simple Page</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <img src="logo.png" alt="Logo" />
+      <div class="buttons">
+        <button onclick="openPDF('Pdf1.pdf')">Open PDF 1</button>
+        <button onclick="openPDF('Pdf2.pdf')">Open PDF 2</button>
+      </div>
+    </div>
+
+    <script>
+      function openPDF(pdfUrl) {
+        window.open(pdfUrl, "_blank");
+      }
+    </script>
+  </body>
+</html>
